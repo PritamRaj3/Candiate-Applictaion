@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    background: linear-gradient(90deg,rgb(13, 112, 91), rgb(224, 14, 94),rgb(107, 13, 119)) ;
+    height: 100vh;
+    padding: 10px 20px;
+    text-align: center;
+}
+.container{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+.image{
+    height: 300px;
+    padding: 20px 10px;
+    width: 400px;
+    margin: auto;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+.profile{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    /* border-top:10px double violet; */
+    border-right:10px double violet;
+    border-left:10px double violet;
+    border-bottom:10px double violet;
+    border-radius: 25px;
+}
+.profile ul{
+    list-style: none;
+}
+.profile ul li{
+    font-size: 20px;
+    padding: 2px 5px;
+    font-weight: bold;
+}
+.button{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.button button{
+    height: 100%;
+    width: 100%;
+    padding: 7px 10px;
+    border: 2px solid brown;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+}
+.button button:hover{
+    background-color: transparent;
+    cursor: pointer;
+    color: lightsalmon;
+}
+/* inform contanier csss */
+.inform{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    mix-blend-mode: color-burn;
+    /* border: 2px solid red; */
+    padding: 2px 10px;
+    border-radius: 3px;
+}
+.inform button{
+    padding: 0px 25px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #d600ff;
+}
+.inform h3{
+    color: sandybrown;
+}
+.block{
+    display: none;
+}
+.none{
+    /* display: none; */
+    visibility: hidden;
+}
